@@ -22,7 +22,7 @@ import ballerinax/trigger.sfdc;
 ```
 
 ### Step 2: Create a new listener instance
-Create a `sfdc:Listener` using your `Slack Verification Token`, port and initialize the listener with it.
+Create a `sfdc:Listener` using your `Salesforce User Name`, `Salesforce Password` `Salesforce Security Token`, `Subscribe Channel Name` and initialize the listener with it.
 ```ballerina
 sfdc:ListenerConfig configuration = {
     username: "USER_NAME",
